@@ -1,20 +1,42 @@
-# Desafio da Feira
+```markdown
+# Marketplace Purchase Challenge
 
-###### Este Código foi feito para entrega de desafios do Bootcamp Santander Bootcamp | Fullstack Developer
+Este repositório contém o projeto **Marketplace Purchase Challenge**, que simula a dinâmica de compra de produtos em um marketplace ou feira. O sistema permite calcular o valor total de uma compra com base nos produtos selecionados e suas respectivas quantidades e preços.
 
-## Desafio 1 
+## Descrição do Projeto
 
-Você está na feira com a sua sacola e parou em uma banca. O feirante lhe entregou pimentões amarelos e vermelhos. Agora iremos somar os pimetões amarelos e vermelhos para descobrir o total de pimentões na sacola.  Você receberá 2 inteiros que devem ser lidos e armazenados nas variáveis A (pimentões amarelos) e B (pimentões vermelhos). Faça a soma de A e B atribuindo o seu resultado na variável X (total de pimentões). Apresente X como descrito na mensagem de exemplo abaixo. Não apresente outra mensagem além da mensagem especificada.
+O **Marketplace Purchase Challenge** é uma solução para simular compras, calculando o custo total a partir de uma lista de produtos disponíveis, suas quantidades e preços.
 
-Entrada
-A entrada contém 2 valores inteiros, separados por um espaço.
+## Funcionalidades
 
-Saída
-Imprimir a mensagem "X = " (sendo a letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Assegure que exista um espaço antes e depois do sinal de igualdade.
+- Registro de produtos e preços.
+- Cálculo do valor total da compra com base nas quantidades inseridas.
+- Apresentação do total ao cliente.
 
+## Tecnologias Utilizadas
 
-| Exemplos de Entrada  | Exemplos de Saída |
-| ------------- |:-------------:|
-| 11 7          |  X = 18       |
-|-11 6          | X = -5        |
-| 11 -2         | X = 9         |
+- **Python**
+
+## Estrutura do Repositório
+
+- `purchase_calculator.py`: Código principal para cálculo dos produtos comprados.
+- `data/`: Contém a lista de produtos e preços.
+
+## Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Giovanacarmazio/Desafio_da_Feira.git
+   ```
+
+2. Execute o script:
+   ```bash
+   python purchase_calculator.py
+   ```
+
+3. Insira os produtos, quantidades, e visualize o total da compra.
+
+## Contribuições
+
+Contribuições são bem-vindas! Abra *issues* ou envie *pull requests*.
+```
